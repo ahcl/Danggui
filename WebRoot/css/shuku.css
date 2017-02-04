@@ -1,0 +1,156 @@
+/* 书库样式 */
+/* 分类标签 */
+.rankboxed{
+	background-color: black;
+}
+.rankbox-dlbox{
+	width: 1000px;
+	background-color: black;
+	margin:0 auto;
+	padding:40px 0 24px;
+}
+.typebox{
+	padding-bottom: 16px;
+	height: 41px;
+	/* overflow:hidden; */
+}
+.typebox1{
+	height: 150px;
+}
+.typebox dt {
+	float: left;
+	line-height: 41px;
+	color: grey;
+	font-size: 10px;
+	margin-right: 12px;
+	 /* padding: 9px 16px; */
+}
+.typebox dd a{
+	float: left;
+	margin-right: 12px;
+	line-height: 41px;
+	color: white;
+	 margin-left: 8px;
+   /*  padding: 9px 16px; */
+   padding-right: 16px;
+   padding-left: 16px;
+    border-radius: 2px;
+}
+.all{
+	background-color: white;
+	color: black !important;
+	float: left;
+}
+.typeddbox{
+	width: 858px;
+	float: right;
+}
+.small:hover{
+	color:grey;
+}
+.smallnew{
+	border:1px solid grey;
+	background-color: rgba(255,255,255,.5);
+	margin-bottom: 10px;
+}
+.smallnew:hover{
+	color: black;
+}
+/* 小说列表 */
+.storylist{
+	background-color: white;
+	height: 1200px;
+}
+.storylistbox{
+	width: 1000px;
+	margin:10px auto;
+}
+.storylistul{
+	width: 100%;
+	list-style: none;
+	margin-top: 50px;
+}
+.storylistul li {
+	width: 30%;
+	float: left;
+	margin-right: 32px;
+	margin-bottom: 20px;
+}
+.storylistul li a{
+	color: black;
+}
+.storylistul li a img{
+	float: left;
+	margin-right: 10px;
+}
+.storylistul li a h3{
+	padding-top: 10px;
+}
+.storylistul li a p{
+	padding-top:10px;
+}
+.author{
+	font-size: 10px !important;
+	padding-top: 5px;
+	padding-bottom: 17px;
+}
+/* 热门书的轮播图 */
+.hotbook{
+	position: relative;
+}
+.hotbookbox{
+	width: 1000px; 
+	margin: 0 auto;
+}
+.hotboxtitle{
+	padding-top: 60px;
+}
+.hotboxtitle h2{
+	color: white;
+}
+.hotbook-box{
+	width: 1000px; 
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	z-index: 10px;
+}
+.hotbookboxul{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 3000px;
+}
+.hotbookboxli{
+	
+	width: 1000px;
+	height: 250px;
+	float: left;
+
+
+}
+
+.hotbookboxli ul{
+	position: none;
+	width: 100%;
+	height: 100% !important;
+	display: block;
+	overflow: hidden;
+
+}
+.hotbookboxli ul li{
+	width: 15%;
+	float: left;
+	margin-top: 40px;
+	margin-right: 45px;
+	overflow: hidden;
+}
+.hotbookboxli ul li a{
+	color: white;
+}
+.hotbookboxli ul li a:hover{
+	color: grey;
+}
+.footer{
+	background-color: white;
+}
