@@ -47,10 +47,9 @@ body,html{
 }
 
 .bgimg{
-	width:420px;
+	width:400px;
 	float: left;  
 	padding:6%;
-	margin-left:-210px;
 	display: inline-block;
 }
 .bgimg img{

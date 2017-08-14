@@ -26,7 +26,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="content">
 		<div class="headerbox">
 			<div class="logo">
-				<img src="../images/loginlogo-w.png">
+				<img src="images/loginlogo-w.png">
 			</div>
 			<div class="back">
 				<a href="index.jsp">返回首页>></a>
@@ -34,16 +34,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<form action="#" method="post" class="contentbox">
 			<div class="bgimg">
-				<img src="../images/loginbg3.jpg">
+				<img src="images/loginbg3.jpg">
 			</div>
 			<div class="loginbox">
 				<span>用户登录</span>
 				<div class="inputbox">
-					<img src="../images/un.png" class="un">
+					<img src="images/un.png" class="un">
 					<input type="text" name="username" placeholder="请输入用户名">
 				</div>
 				<div class="inputbox inputbox1" >
-				<img src="../images/pw.png" class="un">
+				<img src="images/pw.png" class="un">
 					<input type="password" name="psword" placeholder="请输入用户名">
 				</div>
 				<div class="choose">

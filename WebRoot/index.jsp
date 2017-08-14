@@ -50,8 +50,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 		</div>
 		<ul class="login-ul">
-			<li><a href="login.jsp">登录</a></li>
-			<li><a href="regist.jsp">注册</a></li>
+			<li><a href="jsp/login.jsp">登录</a></li>
+			<li><a href="jsp/regist.jsp">注册</a></li>
 		</ul>
 	</div>
 	<div class="bannerbox">
