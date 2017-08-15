@@ -1,0 +1,105 @@
+/*index css*/
+ul{
+	list-style: none;
+}
+@font-face {
+			  font-family: 'iconfont';  /* project id 344799 */
+			  src: url('http://at.alicdn.com/t/font_344799_vvkiuu1e9woskyb9.eot');
+			  src: url('http://at.alicdn.com/t/font_344799_vvkiuu1e9woskyb9.eot?#iefix') format('embedded-opentype'),
+			  url('http://at.alicdn.com/t/font_344799_vvkiuu1e9woskyb9.woff') format('woff'),
+			  url('http://at.alicdn.com/t/font_344799_vvkiuu1e9woskyb9.ttf') format('truetype'),
+			  url('http://at.alicdn.com/t/font_344799_vvkiuu1e9woskyb9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale; padding-left:20px;
+
+}
+i.iconfont.icon-text{
+	color:black;
+    font-size:25px !important;
+}
+/*头部 start*/
+.head-container-h{
+	background: black;
+	color:white;
+	padding-bottom: 65px;
+}
+.ul-h > li{
+	float: left;
+	margin:10px 0;
+	padding: 0 15px;
+	position: relative;
+}
+.ul-h > li:last-child:after {
+        content: "";
+        width: 0;
+        height: 0;
+}
+.ul-h > li:after {
+        content: "";
+        width: 2px;
+        height: 13px;
+        background: #ccc;
+        position: absolute;
+        right: 0;
+        top: 5px;
+}
+/*.ul-h > li:nth-child(1),.ul-h > li:nth-child(2){
+	width: 1px;
+	height: 5px;
+	background: white;
+	border-right: 1px solid #ccc;
+}*/
+.ul-h > li a{
+	color:white;
+}
+.ul-h > li a:hover{
+	color:#ccc;
+	text-decoration: none;	
+}
+.search-box-h{
+	margin-left: 50px;
+	height: 82px;
+	/*line-height:100px;*/
+	display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search-item-h{
+	width:100%;
+	display: inline-block;
+	background: white;
+	height: 50px !important;
+	line-height: 50px;
+	border-radius: 50px;
+	
+}
+.search-input-h{
+	width:95%;
+	margin:0 auto;
+}
+.search-input-text-h{
+	width:90%;
+	margin-top:10px;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+input,input[type="text"]{
+	border: none !important;
+}
+.head-tuijian-box-h > li{
+	float: left;
+	padding: 10px;
+}
+.head-tuijian-box-h > li a{
+	color:white;
+}
+.head-tuijian-box-h > li a:hover{
+	color:#ccc;
+	text-decoration: none;	
+}

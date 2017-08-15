@@ -1,0 +1,79 @@
+/*logo css*/
+.h-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.v-flex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.head-container-h{
+	margin-top: 3%;
+}
+/*logo*/
+.logo-box-h{
+	border-bottom: 5px solid black;
+	vertical-align: middle;
+}
+.back-to-index a{
+	color: black;
+}
+
+/*中间内容*/
+.container-h{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.text-box-h{
+	padding:2% 0px;
+	border: 1px solid black;
+	margin-top: 5%;
+}
+/*input,input[type="text"],input,input[type="password"]{
+	box-shadow: none !important;
+	padding: 2% !important;
+	margin :0px !important;
+}*/
+.login-text-h{
+	margin-top: 2%;
+}
+.password-box-h{
+	margin-top: 5%;
+}
+.checkbox-h > label{
+	font-weight: normal !important;
+}
+.none-remember{
+	padding:0px !important;
+}
+
+.form-control{
+	padding: 6% !important;
+}
+
+.btn-h{
+	width: 100%;
+	background: black !important;
+	color:white;
+}
+
+.tip-h{
+	line-height: 40px;
+}
+
+
+/*底部*/
+.footer-box-h{
+	border-top: 5px solid black;
+	text-align: center;
+}
